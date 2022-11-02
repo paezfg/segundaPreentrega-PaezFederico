@@ -13,27 +13,86 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-
+    
 }
+
+/*BODY*/
+body{
+    background: linear-gradient(to bottom, #ff99c8,#fcf6bd,#d0f4de);
+    padding: 20px;
+}
+
 
 /*HEADER*/
 
 .encabezado {
     background-color: #606c38;
-    height: 30vh;
-    position: relative;
-    display: grid;
-    }
-
-.logo {
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-
-  
-
+    height: 30vh; 
+   
 }
 
 
+
+/*MENU DE NAVEGACIÓN*/
+.container-fluid {
+    background-color: #283618;
+}
+
+.nav-link {
+    color: #fefae0
+}
+
+
+/*CONTENIDO*/
+
+.col h1 {
+    color: #ffffff;
+    text-shadow: 6px #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.col cuerpo {
+    font-size: 10px;
+}
+
+/**FOOTER**/
+
+.contenedorFooter {
+      background-color: #DDA15E ;
+      margin-top: 10px;
+}
+.tituloSeccion {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.redesSociales a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.redesSociales {
+    display: flex;
+    justify-content: center;
+
+}
+
+.redesSociales i{
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+.copy {
+    font-size: 0.7rem;
+    color: #000000;
+    text-align: center;
+}
+
+.contenedorGrid {
+    grid-template-areas: 
+    "header header header";
+}
