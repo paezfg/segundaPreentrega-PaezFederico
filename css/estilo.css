@@ -35,11 +35,11 @@ body{
 
 /*MENU DE NAVEGACIÓN*/
 .container-fluid {
-    background-color: #283618;
+    background-color: #ff99c8;
 }
 
 .nav-link {
-    color: #fefae0
+    color: #000
 }
 
 
@@ -58,10 +58,48 @@ body{
     font-size: 10px;
 }
 
+.card-body {
+    background-color: #d0f4de;
+}
+
+.btn {
+    background-color: #a9def9;
+}
+
+.tituloGuia {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.subtituloGuia {
+    text-align: center;
+    font-weight:inherit;
+    font-size: 1rem;
+}
+
+
+.contenedorCategorias {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedorCategorias i {
+    font-size: 3rem;
+    padding: 50px;
+}
+
+.contenedorCategorias a {
+    text-decoration: none;
+    color: #000;
+}
+
+
 /**FOOTER**/
 
 .contenedorFooter {
-      background-color: #DDA15E ;
+      background-color: #ff99c8 ;
       margin-top: 10px;
 }
 .tituloSeccion {
@@ -90,9 +128,4 @@ body{
     font-size: 0.7rem;
     color: #000000;
     text-align: center;
-}
-
-.contenedorGrid {
-    grid-template-areas: 
-    "header header header";
 }
