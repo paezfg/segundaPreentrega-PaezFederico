@@ -5,16 +5,16 @@
     padding: 0;
 }
 
-/*CONEXIÓN CON GOOGLE FONTS, FAMILIA ROBOTO*/
+/*CONEXIÓN CON GOOGLE FONTS, FAMILIA ROBOTO (cuerpo)*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-/***ESTRUCTURA***/
 
 html {
     font-family: 'Roboto', sans-serif;
     
 }
+
+/***ESTRUCTURA***/
 
 /*BODY*/
 body{
@@ -46,11 +46,9 @@ body{
 /*CONTENIDO*/
 
 .col h1 {
-    color: #ffffff;
     text-shadow: 6px #000000;
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bolder;
     margin-top: 10px;
 }
 
@@ -128,4 +126,11 @@ body{
     font-size: 0.7rem;
     color: #000000;
     text-align: center;
+}
+
+
+@media (max-width:700px) {
+    header img {
+        width: 400px;
+    }
 }
